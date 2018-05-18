@@ -9,11 +9,11 @@ namespace Docker.Registry.DotNet
 
         ICatalogOperations Catalog { get; }
 
-        //IBlobOperations Blobs { get; }
+		IBlobOperations Blobs { get; }
 
-        //IBlobUploadOperations BlobUploads { get; }
+		IBlobUploadOperations BlobUploads { get; }
 
-        ITagOperations Tags { get; }
+		ITagOperations Tags { get; }
 
         ISystemOperations System { get; }
     }
